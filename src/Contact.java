@@ -1,5 +1,6 @@
  public class Contact {
-        private String firstName;
+     public String name;
+     private String firstName;
         private String lastName;
         private String address;
         private String city;
@@ -11,6 +12,9 @@
 
      public Contact() {
 
+     }
+
+     public Contact(String name, String address, String city, String state, String email, long phoneNumber, long zipCode) {
      }
 
      public String getFirstName() {
